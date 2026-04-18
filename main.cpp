@@ -13,12 +13,12 @@ int main()
     SetConsoleOutputCP(1251);
 
     int size;
-    std::cout << "Ââåäèòå ðàçìåð ìàññèâà: ";
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°: ";
     std::cin >> size;
 
     double* arr = create_array(size);
 
-    std::cout << "Ìàññèâ: ";
+    std::cout << "ÐœÐ°ÑÑÐ¸Ð²: ";
     for (int i = 0; i < size; ++i) {
         std::cout << arr[i] << " ";
     }
